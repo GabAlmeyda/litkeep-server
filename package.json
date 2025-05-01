@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "chmod +x node_modules/.bin/json-server",
     "start": "json-server server.json --port 3000"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
+    "debug": "^4.4.0",
     "json-server": "^0.17.3"
   }
 }
