@@ -1,11 +1,11 @@
 {
   "name": "json-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "chmod +x node_modules/.bin/json-server",
-    "start": "json-server db.json --port 3000"
+    "start": "node server.mjs"
   },
   "keywords": [],
   "author": "",
